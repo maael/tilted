@@ -24,16 +24,26 @@
     ]
   },
   "dependencies": {
+    "@react-hook/debounce": "^3.0.0",
     "fathom-client": "^3.0.0",
+    "fscreen": "^1.1.0",
     "next": "^9.5.5",
     "next-seo": "^4.14.0",
+    "randomcolor": "^0.6.2",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-icons": "^3.11.0",
+    "tinycolor2": "^1.4.2",
+    "uuid": "^8.3.1"
   },
   "devDependencies": {
     "@babel/eslint-plugin": "^7.12.1",
+    "@types/fscreen": "^1.0.1",
     "@types/node": "^14.11.1",
+    "@types/randomcolor": "^0.5.5",
     "@types/react": "^16.9.49",
+    "@types/tinycolor2": "^1.4.2",
+    "@types/uuid": "^8.3.0",
     "@typescript-eslint/eslint-plugin": "^4.1.1",
     "@typescript-eslint/parser": "^4.1.1",
     "eslint": "^7.9.0",

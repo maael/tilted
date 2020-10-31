@@ -22,10 +22,14 @@
 }
 
 body {
-  background-color: var(--color-background);
+  background-color: var(--color-bg);
   color: var(--color-text);
   transition: background-color 0.3s ease, color 0.3s ease;
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 /* Sane Reset Below */
@@ -61,9 +65,13 @@ dd {
   margin: 0;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 /* Set core body defaults */
 body {
-  min-height: 100vh;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
